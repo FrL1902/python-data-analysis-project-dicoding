@@ -15,7 +15,7 @@ st.write("""
 - github repo: https://github.com/FrL1902/python-data-analysis-project-dicoding
          """)
 
-df = pd.read_csv('all_df.csv')
+df = pd.read_csv('dashboard/all_df.csv')
 
 st.write("""
 #### Berikut adalah review data E-Commerce Tahun 2017
