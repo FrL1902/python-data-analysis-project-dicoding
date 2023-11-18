@@ -8,6 +8,12 @@ sns.set(style='dark')
 
 st.set_page_config(page_title='E-Commerce 2017 Review')
 st.header('E-Commerce 2017 Data Review')
+st.write("""
+- Nama: Farrel Rasyad
+- Email: farrelrasyad.frr@gmail.com
+- Id Dicoding: farrel_rasyad_eypa
+- github repo: https://github.com/FrL1902/python-data-analysis-project-dicoding
+         """)
 
 df = pd.read_csv('all_df.csv')
 
