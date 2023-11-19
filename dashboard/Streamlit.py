@@ -8,7 +8,9 @@ sns.set(style='dark')
 
 st.set_page_config(page_title='E-Commerce 2017 Review')
 st.header('E-Commerce 2017 Data Review')
-st.write("""
+
+exp = st.expander('About This Page')
+exp.write("""
 - Nama: Farrel Rasyad
 - Email: farrelrasyad.frr@gmail.com
 - Id Dicoding: farrel_rasyad_eypa
@@ -49,7 +51,9 @@ ax1.axis('equal')
 
 st.pyplot(fig1)
 
-st.write("""
+exp1 = st.expander('More Info')
+
+exp1.write("""
 ##### Kita bisa lihat 5 kategori terlaris dari piechart diatas yaitu:
 1. bed bath table (4316 order)
 2. sports leisure (3500 order)
@@ -116,7 +120,9 @@ ax.tick_params(axis='y', labelsize=20)
 ax.tick_params(axis='x', labelsize=15)
 st.pyplot(fig)
 
-st.write("""
+
+exp2 = st.expander('More Info')
+exp2.write("""
 ##### Kita bisa lihat 5 kategori dengan skor terbaik adalah
 1. arts and craftmanship
 2. fashion childrens clothes
