@@ -5,7 +5,7 @@
 - Email: farrelrasyad.frr@gmail.com
 - Id Dicoding: farrel_rasyad_eypa
 - github repo: https://github.com/FrL1902/python-data-analysis-project-dicoding
-- Website Streamlit: https://python-data-analysis-project-dicoding-farrel-r.streamlit.app/
+- Website Streamlit: https://python-data-analysis-project-dicoding-farrelr.streamlit.app/
 
 File yang dipakai:
 ipynb: (real) dicoding python data analysis.ipynb
