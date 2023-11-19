@@ -15,7 +15,7 @@ st.write("""
 - github repo: https://github.com/FrL1902/python-data-analysis-project-dicoding
          """)
 
-df = pd.read_csv('dashboard/all_df.csv')
+df = pd.read_csv('all_df.csv')
 
 st.write("""
 #### Berikut adalah review data E-Commerce Tahun 2017
@@ -77,6 +77,8 @@ bad_5_categories = category_means.nsmallest(5)
 
 scoreDF2 = pd.DataFrame(top_5_categories)
 
+scoreDF2['top_5_categories'] = scoreDF2.index
+
 fig, ax = plt.subplots(figsize=(20, 15))
 colors = ["#90CAF9", "#D3D3D3", "#D3D3D3", "#D3D3D3", "#D3D3D3"]
 sns.barplot(
@@ -95,6 +97,8 @@ st.pyplot(fig)
 
 
 scoreDF3 = pd.DataFrame(bad_5_categories)
+
+scoreDF3['bad_5_categories'] = scoreDF3.index
 
 fig, ax = plt.subplots(figsize=(20, 15))
 colors = ["#90CAF9", "#D3D3D3", "#D3D3D3", "#D3D3D3", "#D3D3D3"]
